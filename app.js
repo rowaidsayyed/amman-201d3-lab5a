@@ -133,7 +133,7 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
      }else{
      strArr= strArr +','+dynamicArray[i];}
     }
-    return [product,`The numbers ${strArr} have a product of 120.`]
+    return [product,`The numbers ${strArr} have a product of ${product}.`]
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
